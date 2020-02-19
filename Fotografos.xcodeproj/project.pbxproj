@@ -14,6 +14,13 @@
 		26B8D62E23FD39E300638948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D62C23FD39E300638948 /* LaunchScreen.storyboard */; };
 		26B8D63923FD39E300638948 /* FotografosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8D63823FD39E300638948 /* FotografosTests.swift */; };
 		26B8D64423FD39E300638948 /* FotografosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8D64323FD39E300638948 /* FotografosUITests.swift */; };
+		26B8D65823FD3B8200638948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8D65723FD3B8200638948 /* AppDelegate.swift */; };
+		26B8D65A23FD3B8200638948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8D65923FD3B8200638948 /* ViewController.swift */; };
+		26B8D65D23FD3B8200638948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D65B23FD3B8200638948 /* Main.storyboard */; };
+		26B8D66223FD3B8C00638948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D66023FD3B8C00638948 /* LaunchScreen.storyboard */; };
+		26B8D66D23FD3B8C00638948 /* Fotografos_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8D66C23FD3B8C00638948 /* Fotografos_AdminTests.swift */; };
+		26B8D67823FD3B8C00638948 /* Fotografos_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8D67723FD3B8C00638948 /* Fotografos_AdminUITests.swift */; };
+		26B8D68423FD3C3100638948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D62A23FD39E300638948 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,20 @@
 			remoteGlobalIDString = 26B8D61F23FD39CE00638948;
 			remoteInfo = Fotografos;
 		};
+		26B8D66923FD3B8C00638948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B8D61823FD39CE00638948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B8D65423FD3B8200638948;
+			remoteInfo = Fotografos_Admin;
+		};
+		26B8D67423FD3B8C00638948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B8D61823FD39CE00638948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B8D65423FD3B8200638948;
+			remoteInfo = Fotografos_Admin;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +68,18 @@
 		26B8D63F23FD39E300638948 /* FotografosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotografosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B8D64323FD39E300638948 /* FotografosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografosUITests.swift; sourceTree = "<group>"; };
 		26B8D64523FD39E300638948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B8D65523FD3B8200638948 /* Fotografos_Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fotografos_Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8D65723FD3B8200638948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26B8D65923FD3B8200638948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26B8D65C23FD3B8200638948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26B8D66123FD3B8C00638948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B8D66323FD3B8C00638948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B8D66823FD3B8C00638948 /* Fotografos_AdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fotografos_AdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8D66C23FD3B8C00638948 /* Fotografos_AdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fotografos_AdminTests.swift; sourceTree = "<group>"; };
+		26B8D66E23FD3B8C00638948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B8D67323FD3B8C00638948 /* Fotografos_AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fotografos_AdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8D67723FD3B8C00638948 /* Fotografos_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fotografos_AdminUITests.swift; sourceTree = "<group>"; };
+		26B8D67923FD3B8C00638948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +104,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26B8D65223FD3B8200638948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D66523FD3B8C00638948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D67023FD3B8C00638948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		26B8D61723FD39CE00638948 = {
 			isa = PBXGroup;
 			children = (
+				26B8D68323FD3BC100638948 /* Shared */,
 				26B8D62223FD39CE00638948 /* Fotografos */,
 				26B8D63723FD39E300638948 /* FotografosTests */,
 				26B8D64223FD39E300638948 /* FotografosUITests */,
+				26B8D65623FD3B8200638948 /* Fotografos_Admin */,
+				26B8D66B23FD3B8C00638948 /* Fotografos_AdminTests */,
+				26B8D67623FD3B8C00638948 /* Fotografos_AdminUITests */,
 				26B8D62123FD39CE00638948 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +148,9 @@
 				26B8D62023FD39CE00638948 /* Fotografos.app */,
 				26B8D63423FD39E300638948 /* FotografosTests.xctest */,
 				26B8D63F23FD39E300638948 /* FotografosUITests.xctest */,
+				26B8D65523FD3B8200638948 /* Fotografos_Admin.app */,
+				26B8D66823FD3B8C00638948 /* Fotografos_AdminTests.xctest */,
+				26B8D67323FD3B8C00638948 /* Fotografos_AdminUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +161,6 @@
 				26B8D62323FD39CE00638948 /* AppDelegate.swift */,
 				26B8D62523FD39CE00638948 /* ViewController.swift */,
 				26B8D62723FD39CE00638948 /* Main.storyboard */,
-				26B8D62A23FD39E300638948 /* Assets.xcassets */,
 				26B8D62C23FD39E300638948 /* LaunchScreen.storyboard */,
 				26B8D62F23FD39E300638948 /* Info.plist */,
 			);
@@ -123,6 +183,44 @@
 				26B8D64523FD39E300638948 /* Info.plist */,
 			);
 			path = FotografosUITests;
+			sourceTree = "<group>";
+		};
+		26B8D65623FD3B8200638948 /* Fotografos_Admin */ = {
+			isa = PBXGroup;
+			children = (
+				26B8D65723FD3B8200638948 /* AppDelegate.swift */,
+				26B8D65923FD3B8200638948 /* ViewController.swift */,
+				26B8D65B23FD3B8200638948 /* Main.storyboard */,
+				26B8D66023FD3B8C00638948 /* LaunchScreen.storyboard */,
+				26B8D66323FD3B8C00638948 /* Info.plist */,
+			);
+			path = Fotografos_Admin;
+			sourceTree = "<group>";
+		};
+		26B8D66B23FD3B8C00638948 /* Fotografos_AdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				26B8D66C23FD3B8C00638948 /* Fotografos_AdminTests.swift */,
+				26B8D66E23FD3B8C00638948 /* Info.plist */,
+			);
+			path = Fotografos_AdminTests;
+			sourceTree = "<group>";
+		};
+		26B8D67623FD3B8C00638948 /* Fotografos_AdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26B8D67723FD3B8C00638948 /* Fotografos_AdminUITests.swift */,
+				26B8D67923FD3B8C00638948 /* Info.plist */,
+			);
+			path = Fotografos_AdminUITests;
+			sourceTree = "<group>";
+		};
+		26B8D68323FD3BC100638948 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				26B8D62A23FD39E300638948 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +279,59 @@
 			productReference = 26B8D63F23FD39E300638948 /* FotografosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		26B8D65423FD3B8200638948 /* Fotografos_Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B8D67A23FD3B8C00638948 /* Build configuration list for PBXNativeTarget "Fotografos_Admin" */;
+			buildPhases = (
+				26B8D65123FD3B8200638948 /* Sources */,
+				26B8D65223FD3B8200638948 /* Frameworks */,
+				26B8D65323FD3B8200638948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fotografos_Admin;
+			productName = Fotografos_Admin;
+			productReference = 26B8D65523FD3B8200638948 /* Fotografos_Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B8D66723FD3B8C00638948 /* Fotografos_AdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B8D67D23FD3B8C00638948 /* Build configuration list for PBXNativeTarget "Fotografos_AdminTests" */;
+			buildPhases = (
+				26B8D66423FD3B8C00638948 /* Sources */,
+				26B8D66523FD3B8C00638948 /* Frameworks */,
+				26B8D66623FD3B8C00638948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B8D66A23FD3B8C00638948 /* PBXTargetDependency */,
+			);
+			name = Fotografos_AdminTests;
+			productName = Fotografos_AdminTests;
+			productReference = 26B8D66823FD3B8C00638948 /* Fotografos_AdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26B8D67223FD3B8C00638948 /* Fotografos_AdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B8D68023FD3B8C00638948 /* Build configuration list for PBXNativeTarget "Fotografos_AdminUITests" */;
+			buildPhases = (
+				26B8D66F23FD3B8C00638948 /* Sources */,
+				26B8D67023FD3B8C00638948 /* Frameworks */,
+				26B8D67123FD3B8C00638948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B8D67523FD3B8C00638948 /* PBXTargetDependency */,
+			);
+			name = Fotografos_AdminUITests;
+			productName = Fotografos_AdminUITests;
+			productReference = 26B8D67323FD3B8C00638948 /* Fotografos_AdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +353,17 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 26B8D61F23FD39CE00638948;
 					};
+					26B8D65423FD3B8200638948 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					26B8D66723FD3B8C00638948 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 26B8D65423FD3B8200638948;
+					};
+					26B8D67223FD3B8C00638948 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 26B8D65423FD3B8200638948;
+					};
 				};
 			};
 			buildConfigurationList = 26B8D61B23FD39CE00638948 /* Build configuration list for PBXProject "Fotografos" */;
@@ -220,6 +382,9 @@
 				26B8D61F23FD39CE00638948 /* Fotografos */,
 				26B8D63323FD39E300638948 /* FotografosTests */,
 				26B8D63E23FD39E300638948 /* FotografosUITests */,
+				26B8D65423FD3B8200638948 /* Fotografos_Admin */,
+				26B8D66723FD3B8C00638948 /* Fotografos_AdminTests */,
+				26B8D67223FD3B8C00638948 /* Fotografos_AdminUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +408,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		26B8D63D23FD39E300638948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D65323FD3B8200638948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8D66223FD3B8C00638948 /* LaunchScreen.storyboard in Resources */,
+				26B8D68423FD3C3100638948 /* Assets.xcassets in Resources */,
+				26B8D65D23FD3B8200638948 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D66623FD3B8C00638948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D67123FD3B8C00638948 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +466,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26B8D65123FD3B8200638948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8D65A23FD3B8200638948 /* ViewController.swift in Sources */,
+				26B8D65823FD3B8200638948 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D66423FD3B8C00638948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8D66D23FD3B8C00638948 /* Fotografos_AdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8D66F23FD3B8C00638948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8D67823FD3B8C00638948 /* Fotografos_AdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +503,16 @@
 			isa = PBXTargetDependency;
 			target = 26B8D61F23FD39CE00638948 /* Fotografos */;
 			targetProxy = 26B8D64023FD39E300638948 /* PBXContainerItemProxy */;
+		};
+		26B8D66A23FD3B8C00638948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B8D65423FD3B8200638948 /* Fotografos_Admin */;
+			targetProxy = 26B8D66923FD3B8C00638948 /* PBXContainerItemProxy */;
+		};
+		26B8D67523FD3B8C00638948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B8D65423FD3B8200638948 /* Fotografos_Admin */;
+			targetProxy = 26B8D67423FD3B8C00638948 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -305,6 +529,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				26B8D62D23FD39E300638948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26B8D65B23FD3B8200638948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B8D65C23FD3B8200638948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26B8D66023FD3B8C00638948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B8D66123FD3B8C00638948 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -540,6 +780,118 @@
 			};
 			name = Release;
 		};
+		26B8D67B23FD3B8C00638948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fotografos_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nous.Fotografos-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B8D67C23FD3B8C00638948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fotografos_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nous.Fotografos-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26B8D67E23FD3B8C00638948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fotografos_AdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nous.Fotografos-AdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fotografos_Admin.app/Fotografos_Admin";
+			};
+			name = Debug;
+		};
+		26B8D67F23FD3B8C00638948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fotografos_AdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nous.Fotografos-AdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fotografos_Admin.app/Fotografos_Admin";
+			};
+			name = Release;
+		};
+		26B8D68123FD3B8C00638948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fotografos_AdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nous.Fotografos-AdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fotografos_Admin;
+			};
+			name = Debug;
+		};
+		26B8D68223FD3B8C00638948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fotografos_AdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nous.Fotografos-AdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fotografos_Admin;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +927,33 @@
 			buildConfigurations = (
 				26B8D64F23FD39E300638948 /* Debug */,
 				26B8D65023FD39E300638948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B8D67A23FD3B8C00638948 /* Build configuration list for PBXNativeTarget "Fotografos_Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8D67B23FD3B8C00638948 /* Debug */,
+				26B8D67C23FD3B8C00638948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B8D67D23FD3B8C00638948 /* Build configuration list for PBXNativeTarget "Fotografos_AdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8D67E23FD3B8C00638948 /* Debug */,
+				26B8D67F23FD3B8C00638948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B8D68023FD3B8C00638948 /* Build configuration list for PBXNativeTarget "Fotografos_AdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8D68123FD3B8C00638948 /* Debug */,
+				26B8D68223FD3B8C00638948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
