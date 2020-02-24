@@ -1,0 +1,6 @@
+framework module Pods_Fotografos_Fotografos_AdminUITests {
+  umbrella header "Pods-Fotografos-Fotografos_AdminUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
